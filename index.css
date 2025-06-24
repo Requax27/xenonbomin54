@@ -1,0 +1,66 @@
+body {
+    background-image: url('/bi.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0px;
+}
+
+.navBox {
+    font-size: 20px;
+    text-align: left;
+    padding: 10px;
+    color: white;
+    background-color: rgb(53, 53, 53);
+}
+
+.title {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.title2 {
+    font-size: 18px;
+    color: rgb(34, 34, 34);
+}
+
+.text {
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.boxbox {
+    border-radius: 20px;
+    width: 500px;
+    margin-top: 20px;
+    padding: 20px;
+    padding-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.aaqaaaqa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 250px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+
+button:hover {
+    transition: ;
+    color: rgb(195, 255, 0);
+
+}
