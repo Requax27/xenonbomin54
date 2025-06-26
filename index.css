@@ -18,23 +18,25 @@ body {
     color: rgb(0, 0, 0);
     font-weight: 600;
     margin-top: 10px;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 .title2 {
-    font-size: 18px;
+    font-size: 30px;
     color: rgb(34, 34, 34);
 }
 
 .text {
     font-weight: 600;
     margin-top: 10px;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .boxbox {
+    overflow: auto;
+    height: 750px;
     border-radius: 20px;
-    width: 500px;
+    width: 1000px;
     margin-top: 20px;
     padding: 20px;
     padding-bottom: 30px;
@@ -48,13 +50,15 @@ body {
 }
 
 img {
-    width: 250px;
+    margin-left: -50px;
+    width: 800px;
 }
 
 button {
+    font-size: 20px;
     transition: 0.3s;
-    margin-top: 10px;
-    padding: 8px;
+    margin-top: 20px;
+    padding: 10px;
     border-radius: 10px;
     color: white;
     background-color: black;
