@@ -60,7 +60,7 @@ button {
 }
 
 button:hover {
-    transition: ;
+    transition: 0.1s;
     color: rgb(195, 255, 0);
 
 }
