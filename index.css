@@ -1,5 +1,5 @@
 body {
-    background-image: url('/bi.png');
+    background-image: url('./bi.png');
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
