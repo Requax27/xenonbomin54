@@ -63,7 +63,5 @@ button {
 button:hover {
     scale: 1.05;
     transition: 0.3s;
-    color: rgb(195, 255, 0);
-
 }
 
