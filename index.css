@@ -5,7 +5,9 @@ body {
     margin: 0px;
 }
 
-.navBox {
+#navBox {
+    justify-content: space-between;
+    display: flex;
     font-size: 20px;
     text-align: left;
     padding: 10px;
@@ -13,7 +15,7 @@ body {
     background-color: rgb(53, 53, 53);
 }
 
-.title {
+#title {
     font-family: "Special Gothic Expanded One", sans-serif;
     color: rgb(0, 0, 0);
     font-weight: 600;
@@ -21,7 +23,7 @@ body {
     font-size: 60px;
 }
 
-.title2 {
+#title2 {
     font-family: "Special Gothic Expanded One", sans-serif;
     font-size: 30px;
     color: rgb(34, 34, 34);
@@ -41,7 +43,7 @@ body {
     font-size: 35px;
 }
 
-.boxbox {
+#boxbox {
     overflow: auto;
     height: 750px;
     border-radius: 20px;
@@ -52,7 +54,7 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-.aaqaaaqa {
+#aaqaaaqa {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,12 +80,65 @@ button {
 }
 
 button:hover {
+    cursor: pointer;
     scale: 1.05;
     transition: 0.3s;
 }
 
 #imgimg {
+    border-radius: 240px;
     margin-left: 10px;
     width: 480px;
 }
+
+#name {
+    font-size: 30px;
+    display: inline-block; 
+    cursor: pointer;
+    margin: 20px;
+}
+
+#rightlist {
+    width: 90%;
+    text-align: right;
+}
+
+#list1 {
+    transition: 0.5s;
+    cursor: pointer;
+    margin: 30px;
+    margin-right: 40px;
+    display: inline-block; 
+}
+
+#list1:hover {
+    transition: 0.5s;
+    scale: 1.1;
+}
+
+
+#list2 {
+    transition: 0.5s;
+    cursor: pointer;
+    margin-right: 40px;
+    display: inline-block; 
+}
+
+#list2:hover {
+    transition: 0.5s;
+    scale: 1.1;
+}
+
+#list3 {
+    transition: 0.5s;
+    cursor: pointer;
+    margin-right: 40px;
+    display: inline-block; 
+}
+
+#list3:hover {
+    transition: 0.5s;
+    scale: 1.1;
+}
+
 
