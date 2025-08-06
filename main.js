@@ -115,3 +115,93 @@ window.addEventListener('mousemove', function(event2){
     graText.style.backgroundClip = 'text';
 
 });
+
+//박스이동
+
+let BoxBox = 1  // 1:profile   2:portfolio   3:blogs
+
+document.addEventListener('keydown', function(event) {
+
+  switch (event.key) {
+
+    case 'ArrowRight':
+
+            if(BoxBox == 1) {
+
+        BoxBox = 3
+
+        }   else {
+
+    BoxBox -= 1;
+
+  }
+
+      console.log(BoxBox)
+
+
+      break;
+
+    case 'ArrowLeft':
+
+            if(BoxBox == 3) {
+
+        BoxBox = 1
+
+        }   else {
+
+    BoxBox += 1;
+
+  }
+
+      console.log(BoxBox)
+
+      break;
+
+  }
+
+});
+
+const prob = document.getElementById('prob');
+
+const portb = document.getElementById('portb');
+
+const blogb = document.getElementById('blogb');
+
+document.addEventListener('keydown', function(event3) {
+
+    switch (BoxBox) {
+
+        case 1:
+            
+            prob.style.scale = 1.00;
+
+            portb.style.scale = 0.20;
+
+            blogb.style.scale = 0.20;
+
+            break;
+
+        case 2:
+
+            prob.style.scale = 0.20;
+
+            portb.style.scale = 1.00;
+
+            blogb.style.scale = 0.20;
+
+            break;
+
+        case 3:
+
+            prob.style.scale = 0.20;
+
+            portb.style.scale = 0.20;
+
+            blogb.style.scale = 1.00;
+
+            break;
+
+    }
+
+});
+

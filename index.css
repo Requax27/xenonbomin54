@@ -1,4 +1,5 @@
 body {
+    overflow-x: hidden;
     font-family: "Special Gothic Expanded One", sans-serif;
     background-color: rgb(32, 32, 32);
     text-align: center;
@@ -43,7 +44,35 @@ body {
     font-size: 35px;
 }
 
-#boxbox {
+#prob {
+    margin-left: -200px;
+    margin-right: -200px;
+    transition: 0.5s;
+    scale: 1.00;
+    border-radius: 20px;
+    width: 700px;
+    margin-top: 20px;
+    padding: 20px;
+    padding-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+#portb {
+    transition: 0.5s;
+    scale: 0.20;
+    overflow: auto;
+    height: 750px;
+    border-radius: 20px;
+    width: 700px;
+    margin-top: 20px;
+    padding: 20px;
+    padding-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+#blogb {
+    transition: 0.5s;
+    scale: 0.20;
     overflow: auto;
     height: 750px;
     border-radius: 20px;
@@ -61,11 +90,14 @@ body {
 }
 
 img {
+
+    margin-top: 20px;
     margin-left: -50px;
     width: 800px;
 }
 
 button {
+    margin-bottom: 20px;
     font-family: "Special Gothic Expanded One", sans-serif;
     border: none;
     font-size: 20px;
@@ -141,4 +173,23 @@ button:hover {
     scale: 1.1;
 }
 
+.position-left {
+    left: 30px;
+    transform: translateY(-50%);
+}
+
+.position-center {
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.position-right {
+    right: 30px;
+    transform: translateY(-50%);
+}
+
+#allgood {
+    justify-content: space-between;
+    display: flex;
+}
 
