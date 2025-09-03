@@ -1,5 +1,5 @@
 body {
-    overflow-x: hidden;
+    overflow: hidden;
     font-family: "Special Gothic Expanded One", sans-serif;
     background-color: rgb(32, 32, 32);
     text-align: center;
@@ -45,13 +45,12 @@ body {
 }
 
 #prob {
-    margin-left: -200px;
-    margin-right: -200px;
+    margin-left: -300px;
+    margin-right: -300px;
     transition: 0.5s;
     scale: 1.00;
     border-radius: 20px;
     width: 700px;
-    margin-top: 20px;
     padding: 20px;
     padding-bottom: 30px;
     background-color: rgb(255, 255, 255);
@@ -64,7 +63,6 @@ body {
     height: 750px;
     border-radius: 20px;
     width: 700px;
-    margin-top: 20px;
     padding: 20px;
     padding-bottom: 30px;
     background-color: rgb(255, 255, 255);
@@ -77,13 +75,14 @@ body {
     height: 750px;
     border-radius: 20px;
     width: 700px;
-    margin-top: 20px;
     padding: 20px;
     padding-bottom: 30px;
     background-color: rgb(255, 255, 255);
 }
 
 #aaqaaaqa {
+    margin-left: -50px;
+    margin-top: -100px;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -88,6 +88,7 @@ window.addEventListener('load', function() {
 
 //텍스트 그라데이션 효과 시작
 
+
 const graText = document.getElementById('text');
 
 const center = {
@@ -173,7 +174,7 @@ document.addEventListener('keydown', function(event3) {
 
         case 1:
             
-            prob.style.scale = 1.00;
+            prob.style.scale = 0.60;
 
             portb.style.scale = 0.20;
 
@@ -185,7 +186,7 @@ document.addEventListener('keydown', function(event3) {
 
             prob.style.scale = 0.20;
 
-            portb.style.scale = 1.00;
+            portb.style.scale = 0.60;
 
             blogb.style.scale = 0.20;
 
@@ -197,7 +198,7 @@ document.addEventListener('keydown', function(event3) {
 
             portb.style.scale = 0.20;
 
-            blogb.style.scale = 1.00;
+            blogb.style.scale = 0.60;
 
             break;
 
