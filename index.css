@@ -34,7 +34,7 @@ body {
     font-family: "Special Gothic Expanded One", sans-serif;
     margin: 0 auto;
     width: 400px;
-    background: linear-gradient(45deg, #FC4100, #F3CA52, #03AED2);
+    background: linear-gradient(45deg, #000000, #7d7d7d, #ffffff);
     -webkit-background-clip: text;
     color: transparent;
     font-size: 24px;
@@ -48,7 +48,7 @@ body {
     margin-left: -300px;
     margin-right: -300px;
     transition: 0.5s;
-    scale: 1.00;
+    scale: 0.60;
     border-radius: 20px;
     width: 700px;
     padding: 20px;
@@ -81,7 +81,7 @@ body {
 }
 
 #aaqaaaqa {
-    margin-left: -50px;
+    margin: 0 auto;
     margin-top: -100px;
     display: flex;
     justify-content: center;
@@ -187,8 +187,20 @@ button:hover {
     transform: translateY(-50%);
 }
 
-#allgood {
-    justify-content: space-between;
-    display: flex;
+
+#port1 {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 60px;
+}
+
+#blog1 {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 60px;
 }
 
