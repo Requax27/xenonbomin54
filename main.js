@@ -155,13 +155,13 @@ const PRG = document.getElementById('navPrag')
 
 function pragnant(x) {
     if (x == 1){
-        PRG.style.marginLeft = "910px";
+        PRG.style.marginLeft = "955px";
         PRG.style.scale = "1.00";
     } else if (x == 2) {
-        PRG.style.marginLeft = "1260px";
+        PRG.style.marginLeft = "1315px";
         PRG.style.scale = "1.00";
     } else if (x == 3) {
-        PRG.style.marginLeft = "1610px";
+        PRG.style.marginLeft = "1659px";
         PRG.style.scale = "1.00";
     } else if (x == 0) {
         PRG.style.scale = "0.00";
