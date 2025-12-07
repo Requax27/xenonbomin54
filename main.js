@@ -119,18 +119,27 @@ function love(e) {
     switch (BoxBox) {
         case 1:
             prob.style.scale = 0.80;
-            portb.style.scale = 0.20;
-            blogb.style.scale = 0.20;
+            prob.style.filter = "brightness(100%) blur(0px)";
+            portb.style.scale = 0.40;
+            portb.style.filter = "brightness(50%) blur(5px)";
+            blogb.style.scale = 0.40;
+            blogb.style.filter = "brightness(50%) blur(5px)";
             break;
         case 2:
-            prob.style.scale = 0.20;
+            prob.style.scale = 0.40;
+            prob.style.filter = "brightness(50%) blur(5px)";
             portb.style.scale = 0.80;
-            blogb.style.scale = 0.20;
+            portb.style.filter = "brightness(100%) blur(0px)";
+            blogb.style.scale = 0.40;
+            blogb.style.filter = "brightness(50%) blur(5px)";
             break;
         case 3:
-            prob.style.scale = 0.20;
-            portb.style.scale = 0.20;
+            prob.style.scale = 0.40;
+            prob.style.filter = "brightness(50%) blur(5px)";
+            portb.style.scale = 0.40;
+            portb.style.filter = "brightness(50%) blur(5px)";
             blogb.style.scale = 0.80;
+            blogb.style.filter = "brightness(100%) blur(0px)";
             break;
     }
 }
