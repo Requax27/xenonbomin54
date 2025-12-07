@@ -221,6 +221,7 @@ button:hover {
 }
 
 #navPrag {
+    scale: 0.00;
     margin-top: -500px;
     width: 300px;
     margin-left: 1260px;
