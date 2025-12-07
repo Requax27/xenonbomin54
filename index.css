@@ -45,10 +45,10 @@ body {
 }
 
 #prob {
-    margin-left: -300px;
-    margin-right: -300px;
+    margin-left: -100px;
+    margin-right: -100px;
     transition: 0.5s;
-    scale: 0.60;
+    scale: 0.80;
     border-radius: 20px;
     width: 700px;
     padding: 20px;
@@ -57,8 +57,9 @@ body {
 }
 
 #portb {
+    filter: brightness(50%) blur(5px);
     transition: 0.5s;
-    scale: 0.20;
+    scale: 0.40;
     overflow: auto;
     height: 750px;
     border-radius: 20px;
@@ -69,8 +70,9 @@ body {
 }
 
 #blogb {
+    filter: brightness(50%) blur(5px);
     transition: 0.5s;
-    scale: 0.20;
+    scale: 0.40;
     overflow: auto;
     height: 750px;
     border-radius: 20px;
@@ -82,7 +84,7 @@ body {
 
 #aaqaaaqa {
     margin: 0 auto;
-    margin-top: -100px;
+    margin-top: -15px;
     display: flex;
     justify-content: center;
     align-items: center;
