@@ -142,7 +142,7 @@ function love(e) {
             blogb.style.filter = "brightness(100%) blur(0px)";
             break;
     }
-}
+};
 
 const navv = document.getElementById('navBox');
 
@@ -150,4 +150,21 @@ window.addEventListener('DOMContentLoaded', function()
 {
     navv.style.maxHeight = "100px";
 });
+
+const PRG = document.getElementById('navPrag')
+
+function pragnant(x) {
+    if (x == 1){
+        PRG.style.marginLeft = "910px";
+        PRG.style.scale = "1.00";
+    } else if (x == 2) {
+        PRG.style.marginLeft = "1260px";
+        PRG.style.scale = "1.00";
+    } else if (x == 3) {
+        PRG.style.marginLeft = "1610px";
+        PRG.style.scale = "1.00";
+    } else if (x == 0) {
+        PRG.style.scale = "0.00";
+    }
+};
 

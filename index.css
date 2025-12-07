@@ -14,7 +14,7 @@ body {
     text-align: left;
     padding: 10px;
     color: white;
-    background-color: rgb(53, 53, 53);
+    background-color: #535353;
     transition: 0.8s;
 }
 
@@ -218,4 +218,11 @@ button:hover {
     font-family: "Special Gothic Expanded One", sans-serif;
     font-size: 30px;
     color: rgb(34, 34, 34);
+}
+
+#navPrag {
+    margin-top: -500px;
+    width: 300px;
+    margin-left: 1260px;
+    transition: 0.4s;
 }
