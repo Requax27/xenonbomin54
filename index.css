@@ -7,6 +7,7 @@ body {
 }
 
 #navBox {
+    max-height: 0px;
     justify-content: space-between;
     display: flex;
     font-size: 20px;
@@ -14,6 +15,7 @@ body {
     padding: 10px;
     color: white;
     background-color: rgb(53, 53, 53);
+    transition: 0.8s;
 }
 
 #title {

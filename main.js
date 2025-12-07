@@ -144,3 +144,10 @@ function love(e) {
     }
 }
 
+const navv = document.getElementById('navBox');
+
+window.addEventListener('DOMContentLoaded', function()
+{
+    navv.style.maxHeight = "100px";
+});
+
